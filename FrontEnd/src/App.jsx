@@ -30,7 +30,7 @@ import {
   Zap,
 } from 'lucide-react'
 import './App.css'
-import heroImage from './assets/projects/0234b19f3092f7ddba412623aafeb9cde609e5b66da36d55a004c452a7aad752.jpg'
+import heroImage  from './assets/projects/0234b19f3092f7ddba412623aafeb9cde609e5b66da36d55a004c452a7aad752.jpg'
 import projectCollage from './assets/projects/aht-project-collage.jpg'
 
 const phonePrimary = '916284069119'
