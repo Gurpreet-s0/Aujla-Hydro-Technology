@@ -30,6 +30,7 @@ import {
   Zap,
 } from 'lucide-react'
 import './App.css'
+import heroImage from './assets/projects/0234b19f3092f7ddba412623aafeb9cde609e5b66da36d55a004c452a7aad752.jpg'
 import projectCollage from './assets/projects/aht-project-collage.jpg'
 
 const phonePrimary = '916284069119'
@@ -296,7 +297,7 @@ function Header() {
             <Waves size={26} />
           </span>
           <span>
-            <span className="block text-sm font-black tracking-[0.18em] text-[#173B7A]">AHT</span>
+            <span className="block text-sm  font-black tracking-[0.18em] text-[#173B7A]">AHT</span>
             <span className="block text-xs font-bold uppercase tracking-[0.16em] text-slate-500">
               Aujla Hydro Technologies
             </span>
@@ -431,7 +432,7 @@ function Hero() {
         >
           <div className="hero-image">
             <img
-              src="../src/assets/projects/0234b19f3092f7ddba412623aafeb9cde609e5b66da36d55a004c452a7aad752.jpg"
+              src={heroImage}
               alt="Construction team working on a modern waterproofing project"
             />
           </div>
